@@ -1,0 +1,44 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+h1{
+    color: rgb(243, 76, 76);
+    font-size: 50px;
+    display: block;
+    position: absolute;
+}
+
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttonGroup{
+  
+    margin-top: 150px;
+}
+
+button{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background-color: rgb(234, 192, 138);
+    border: none;
+}
+
+.button--no{
+    right: 50%;
+}
+
+.p{
+    margin-top: 100px;
+    color: aliceblue;
+   display: none;
+}
